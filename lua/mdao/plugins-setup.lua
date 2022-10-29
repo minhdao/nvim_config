@@ -31,6 +31,7 @@ return packer.startup(function(use)
   use("wbthomason/packer.nvim")
 
   use("bluz71/vim-nightfly-guicolors") -- colorscheme
+  use("christoomey/vim-tmux-navigator") -- tmux terminal windows and panes
 
   if packer_bootstrap then
     require("packer").sync()
