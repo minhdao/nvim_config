@@ -7,4 +7,7 @@ require("mdao.plugins.nvim-tree")
 require("mdao.plugins.lualine")
 require("mdao.plugins.telescope")
 require("mdao.plugins.nvim-cmp")
+require("mdao.plugins.lsp.mason")
+require("mdao.plugins.lsp.lspsaga")
+require("mdao.plugins.lsp.lspconfig")
 
