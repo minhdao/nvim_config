@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ReplaceWithRegister = {
+    loaded = true,
+    path = "/Users/minh/.local/share/nvim/site/pack/packer/start/ReplaceWithRegister",
+    url = "https://github.com/vim-scripts/ReplaceWithRegister"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/minh/.local/share/nvim/site/pack/packer/start/packer.nvim",
