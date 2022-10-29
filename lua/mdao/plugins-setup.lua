@@ -35,6 +35,7 @@ return packer.startup(function(use)
   use("szw/vim-maximizer") -- toggle maximize nvim windows
   use("tpope/vim-surround") -- surround text with whatever you want e.g. name -> "name" or 'name'
   use("vim-scripts/ReplaceWithRegister") -- copy and replace text e.g. yw -> grw
+  use("numToStr/Comment.nvim") -- easy and fast way to comment codes
 
   if packer_bootstrap then
     require("packer").sync()
