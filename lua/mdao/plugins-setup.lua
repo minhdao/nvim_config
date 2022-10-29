@@ -36,6 +36,9 @@ return packer.startup(function(use)
   use("tpope/vim-surround") -- surround text with whatever you want e.g. name -> "name" or 'name'
   use("vim-scripts/ReplaceWithRegister") -- copy and replace text e.g. yw -> grw
   use("numToStr/Comment.nvim") -- easy and fast way to comment codes
+  use("nvim-tree/nvim-tree.lua") -- file explorer for nvim
+  use("kyazdani42/nvim-web-devicons") -- icons for different file types
+  use("nvim-lualine/lualine.nvim") -- better nvim status line
 
   if packer_bootstrap then
     require("packer").sync()

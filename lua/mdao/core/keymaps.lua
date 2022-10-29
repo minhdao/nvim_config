@@ -13,3 +13,6 @@ keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
 
 -- plugin keymaps
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
+-- nvim-tree
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
