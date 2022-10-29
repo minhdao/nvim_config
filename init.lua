@@ -10,4 +10,5 @@ require("mdao.plugins.nvim-cmp")
 require("mdao.plugins.lsp.mason")
 require("mdao.plugins.lsp.lspsaga")
 require("mdao.plugins.lsp.lspconfig")
-
+require("mdao.plugins.autopairs")
+require("mdao.plugins.treesitter")
