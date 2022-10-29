@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/minh/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/minh/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "/Users/minh/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",

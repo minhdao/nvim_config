@@ -33,6 +33,7 @@ return packer.startup(function(use)
   use("bluz71/vim-nightfly-guicolors") -- colorscheme
   use("christoomey/vim-tmux-navigator") -- tmux terminal windows and panes
   use("szw/vim-maximizer") -- toggle maximize nvim windows
+  use("tpope/vim-surround") -- surround text with whatever you want e.g. name -> "name" or 'name'
 
   if packer_bootstrap then
     require("packer").sync()
