@@ -29,7 +29,7 @@ end
 -- Starup packer and use packer to install plugins
 return packer.startup(function(use)
   use("wbthomason/packer.nvim")
-
+  use("nvim-lua/plenary.nvim") -- lua functions that many plugins use
   use("bluz71/vim-nightfly-guicolors") -- colorscheme
   use("christoomey/vim-tmux-navigator") -- tmux terminal windows and panes
   use("szw/vim-maximizer") -- toggle maximize nvim windows
@@ -39,6 +39,11 @@ return packer.startup(function(use)
   use("nvim-tree/nvim-tree.lua") -- file explorer for nvim
   use("kyazdani42/nvim-web-devicons") -- icons for different file types
   use("nvim-lualine/lualine.nvim") -- better nvim status line
+
+  -- fuzzy finding w/ telescope
+	use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
+	use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
+
 
   if packer_bootstrap then
     require("packer").sync()
