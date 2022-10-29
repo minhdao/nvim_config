@@ -32,6 +32,7 @@ return packer.startup(function(use)
 
   use("bluz71/vim-nightfly-guicolors") -- colorscheme
   use("christoomey/vim-tmux-navigator") -- tmux terminal windows and panes
+  use("szw/vim-maximizer") -- toggle maximize nvim windows
 
   if packer_bootstrap then
     require("packer").sync()

@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/minh/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/Users/minh/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
+  },
   ["vim-nightfly-guicolors"] = {
     loaded = true,
     path = "/Users/minh/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",

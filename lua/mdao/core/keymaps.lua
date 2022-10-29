@@ -10,3 +10,6 @@ keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- split window equal width
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
+
+-- plugin keymaps
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
