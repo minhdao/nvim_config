@@ -6,4 +6,5 @@ require("mdao.plugins.comment")
 require("mdao.plugins.nvim-tree")
 require("mdao.plugins.lualine")
 require("mdao.plugins.telescope")
+require("mdao.plugins.nvim-cmp")
 
